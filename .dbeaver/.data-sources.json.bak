@@ -1,0 +1,60 @@
+{
+	"folders": {},
+	"connections": {
+		"msaccess_ucanaccess-17785882420-4f5943be17f06d6e": {
+			"provider": "generic",
+			"driver": "msaccess_ucanaccess",
+			"name": "Drama.accdb",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\Sophie Li\\Downloads\\Drama.accdb",
+				"url": "jdbc:ucanaccess://C:\\Users\\Sophie Li\\Downloads\\Drama.accdb",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		},
+		"sqlite_jdbc-17785d3b6fd-5e021324fd536c59": {
+			"provider": "generic",
+			"driver": "sqlite_jdbc",
+			"name": "University.sqlite",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\Sophie Li\\Documents\\mie253 working\\Sophie-Li-mie253-lab2\\University.sqlite",
+				"url": "jdbc:sqlite:C:\\Users\\Sophie Li\\Documents\\mie253 working\\Sophie-Li-mie253-lab2\\University.sqlite",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		},
+		"msaccess_ucanaccess-17785d655eb-610c2ed8e31ca035": {
+			"provider": "generic",
+			"driver": "msaccess_ucanaccess",
+			"name": "LeMans.accdb",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"database": "C:\\Users\\Sophie Li\\Downloads\\LeMans.accdb",
+				"url": "jdbc:ucanaccess://C:\\Users\\Sophie Li\\Downloads\\LeMans.accdb",
+				"type": "dev",
+				"auth-model": "native",
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
